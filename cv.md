@@ -35,9 +35,9 @@ function fizzbuzz(n)
 *Nothing yet...*
 
 ### Education and courses:
-1) CS50 video course
-2) JS, CSS, HTML, Git video courses on YouTube channel Glo Academy
-3) JavaScript https://learn.javascript.ru/
+1. CS50 video course
+2. JS, CSS, HTML, Git video courses on YouTube channel Glo Academy
+3. JavaScript https://learn.javascript.ru/
 
 ### Language:
-**English level:** A2
+English level - A2
