@@ -141,3 +141,17 @@ header {
     font-size: 0.8em;
     color: rgb(4, 194, 29);
 }
+
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    background: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.link-icon {
+    font-size: 1em;
+    margin-right: 1%;
+}
