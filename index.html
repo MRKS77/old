@@ -19,7 +19,59 @@
   </head>
   <body>
     <div class="container">
+
       <div class="main">
+
+        <main class="main-content">
+          <header>
+            <h1>Artur Markasian</h1>
+            <h2>Front-end Developer</h2>
+          </header>
+          <section class="main-section">
+            <h3 class="main-header"><i class="fas fa-user head-icon"></i>Soft Skills</h3>
+            <ul class="main-list">
+              <li>Purposeful</li>
+              <li>Fast learner</li>
+              <li>Сommunicative</li>
+              <li>Creative</li>
+            </ul>
+          </section>
+          <section class="main-section">
+            <h3 class="main-header"><i class="fas fa-book-open head-icon"></i>Education</h3>
+            <p>Self-study from books, the Internet and YouTube.</p>
+          </section>
+          <section class="main-section">
+            <h3 class="main-header"><i class="fas fa-code head-icon"></i>Code Example</h3>
+            <p>
+              <pre class="code-example">
+                function fizzbuzz(n)
+                {
+                  let ar = [];
+                  for ( let i = 1; i <= n; i++) {
+                    if ( (i % 3 === 0) && (i % 5 === 0)) {
+                      ar.push('FizzBuzz');
+                    }
+                    else if ( i % 3 === 0 ) {
+                      ar.push("Fizz");
+                    }
+                    else if ( i % 5 === 0) {
+                      ar.push("Buzz");
+                    }
+                    else {
+                      ar.push(i);
+                    }
+                  }
+                  return ar;
+                }
+              </pre>
+            </p>
+          </section>
+          <section class="main-section">
+            <h3 class="main-header"><i class="fas fa-globe head-icon"></i>English Language</h3>
+            <p>Proficiency level - A2.</p>
+          </section>
+        </main>
+
         <aside class="side-panel">
           <img class="avatar" src="/img/avatar.jpg" alt="Avatar Pic">
           <section class="aside-section">
@@ -57,13 +109,13 @@
             </ul>
           </section>
         </aside>
-        <main class="main-content">
-          <header>
-            <h1>Artur Markasian</h1>
-            <h2>Front-end Developer</h2>
-          </header>
-        </main>
+
       </div>
+
+      <footer>
+        
+      </footer>
+
     </div>
   </body>
 </html>
