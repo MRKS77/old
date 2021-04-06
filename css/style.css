@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.side-panel {
+  /* float: right; */
+  width: 30%;
+  color: dodgerblue;
+  background: linear-gradient(
+    270deg,
+    rgb(92, 92, 92) 0%,
+    rgb(15, 15, 15) 100%
+  );
+}
+
+.avatar {
+    display: block;
+    margin: 10% auto;
+    width: 80%;
+    border-radius: 20%;
+}
+
+.aside-section {
+    margin-bottom: 10%;
+}
+
+.aside-header {
+    margin-left: 10%;
+    padding-bottom: 5%;
+    border-bottom: 4px solid dodgerblue;
+}
+
+.side-panel li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+.icon {
+    margin-right: 5%;
+}
+
+.scale {
+    width: 83%;
+    height: 10px;
+    margin-top: 5%;
+    background-color: #ffffff3d;
+}
+
+.scale span {
+    display: block;
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+#js-skill {
+    width: 20%;
+}
+
+#html-skill {
+    width: 30%;
+}
+
+#css-skill {
+    width: 30%
+}
+
+#git-skill {
+    width: 40%
+}
