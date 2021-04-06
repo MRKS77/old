@@ -7,15 +7,15 @@
 }
 
 h1 {
-  font-size: 4em;
-}
-
-h2 {
   font-size: 3em;
 }
 
-h3 {
+h2 {
   font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 body {
@@ -37,19 +37,15 @@ body {
 .side-panel {
   /* float: right; */
   width: 30%;
-  color: dodgerblue;
-  background: linear-gradient(
-    270deg,
-    rgb(92, 92, 92) 0%,
-    rgb(15, 15, 15) 100%
-  );
+  color: rgb(255, 255, 255);
+  background:dodgerblue;
 }
 
 .avatar {
     display: block;
     margin: 10% auto;
     width: 80%;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 .aside-section {
@@ -59,7 +55,7 @@ body {
 .aside-header {
     margin-left: 10%;
     padding-bottom: 5%;
-    border-bottom: 4px solid dodgerblue;
+    border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 .side-panel li {
@@ -84,7 +80,7 @@ body {
 .scale span {
     display: block;
     height: 100%;
-    background-color: dodgerblue;
+    background-color: rgb(255, 255, 255);
 }
 
 #js-skill {
@@ -101,4 +97,14 @@ body {
 
 #git-skill {
     width: 40%
+}
+
+.main-content {
+    width: 70%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgb(32, 32, 32) 0%,
+        rgba(57, 57, 57, 1) 100%
+      );
 }
